@@ -15,8 +15,8 @@ class APIManager {
     struct Constants {
         static let baseURL = "https://gateway.marvel.com/"
         static let timeStamp = 1
-        static let apiKey = "e7148640a6322e5f43a984f7054fe335"
-        static let hashTest = "9176945764cee9da332780aab6bbaf7d"
+        static let apiKey = ""
+        static let hashTest = ""
     }
     
     public func getCharacters(forPage: Int, withName name: String?, orderBy: String?, completion: @escaping (Result<APIResponse<Character>, Error>) -> Void) {
